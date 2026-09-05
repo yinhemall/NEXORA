@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noxar</title>
-    <link rel="stylesheet"
-    href="style.css">
+    <link rel="stylesheet" herf="style.css">
 </head>
+<script>
+   function goToAbout() {
+    document.getElementById('page-home').style.display = 'none';
+    document.getElementById('page-about').style.display = 'block'
+   }
+</script>
 <body>
-    <div class="main">
+    <div id="page-home">
         <h1>Noxar</h1>
-        <p>This is a website about Noxar.</p>
-        <button>Enter</button>
+        <p>Click Enter button</p>
+        <button onclick="goToAbout()">Enter</button>
     </div>
 
-    <div>
-        <h2>About me</h2>
-        <p>- content creator:1600subs</p>
-        <p>- moblie thumbnail designer</p>
-        <p>- 600+ members discord server founder</p>
-        <p>- 6,000+ members discord server jr.mod </p>
-<p>- the worst rivals moblie player in taiwan</p>
+    <div id="page-about">
+        <h2>About Me</h2>
+        <p>．Content Creator:1600subs</p>
+        <p>．Moblie Thumbnail Designer</p>
+        <p>．600+members discord server founder(CORE)</p>
+        <p>．6000+members discord server Jr.Mod(vy)</p>
     </div>
-
 </body>
 </html>
