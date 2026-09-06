@@ -8,9 +8,14 @@
 </head>
 <script>
    function goToAbout() {
-    document.getElementById('page-home').style.display = 'none';
-    document.getElementById('page-about').style.display = 'block'
-   }
+    const homepage = document.getElementById('.page-hone');
+    homepage.style.display = 'none';
+
+    const cards = document.querySelectorAll('info-card');
+    cards.forEach(card=> {
+    card.style.display = 'block';
+    });
+}
 </script>
 <body>
     <div id="page-home">
