@@ -16,3 +16,13 @@ body {
     color: white;
     margin-top: 0;
 }
+.info-card p {
+    color: gray;
+}
+
+#page-home h1 {
+    color:white;
+}
+#page-home p {
+    color:gray;
+}
