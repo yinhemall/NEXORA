@@ -1,8 +1,7 @@
 .info-card {
     display: none; 
 }
-.info-card h2 {
-color: white;
+.info-card {
 background: rgba(255,255,255,0.05);
 backdrop-filter: blur(10px);
 -webkit-backdrop-filter: blur(10px);
@@ -12,4 +11,8 @@ padding: 8px 12px;
 }
 body {
     background-color: black;
+}
+.info-card h2 {
+    color: white;
+    margin-top: 0;
 }
