@@ -1,15 +1,12 @@
-#page-about{
-    display: none;
+.info-card {
+    display: none; 
 }
-body {
-    background-color: black;
-}
-h1 {
-    color:white;
-}
-h2 {
-    color: white;
-}
-p {
-    color:gray;
+.info-card h2 {
+color: white;
+background: rgba(255,255,255,0.05);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+border: 1px solid rgba(255,255,255,0.1);
+border-radius: 6px;
+padding: 8px 12px;
 }
